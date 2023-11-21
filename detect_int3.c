@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+__attribute__((weak))
+
 int debuging;
 
 static void sig_handler(int sig)
